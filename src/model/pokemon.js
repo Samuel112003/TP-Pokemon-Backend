@@ -1,14 +1,19 @@
 const Pokemon = {
     id: Number,
-    name: String,
-    types: [String],
-    stats: {
-        hp: Number,
-        attack: Number,
-        defense: Number,
+    name: {
+        english: String,
+        japanese: String,
+        chinese: String,
+        french: String
+    },
+    type: [String],
+    base: {
+        HP: Number,
+        Attack: Number,
+        Defense: Number,
         spAttack: Number,
         spDefense: Number,
-        speed: Number
+        Speed: Number
     }
 }
 
